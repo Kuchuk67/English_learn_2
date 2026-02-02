@@ -1,0 +1,17 @@
+[project]
+name = "english-learn-2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Serg Kuchukov Office",email = "kuchukov.sergey@gmail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
