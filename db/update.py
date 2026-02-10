@@ -22,6 +22,9 @@ def update_dictionary(dictionary_id, new_name):
 
 
 def update_rate(id:int,new_rate:int):
+    """
+    Изменяет рейтинг слова
+    """
     # Подключение к БД
     conn = sqlite3.connect("dictionary.db")
     cursor = conn.cursor()

@@ -7,7 +7,8 @@
 <body>
 <div class="fon">
 <h2>Учим слова</h2>
-<p>Осталось {{ counter }}</p>
+<p>Осталось {{ counter }}, ошибок {{ erall }} </p>
+
 <div id="block">
     <div class="word">{{ word[1] }}</div>
     <div class="txt">{{ word[3] }}</div>
